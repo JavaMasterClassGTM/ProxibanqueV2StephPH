@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="bootstrap.min.css">
+<title>Connexion</title>
+</head>
+<body>
+<h2>Connectez-vous</h2>
+<form class="form-horizontal" method="post" action="ServletConnexion">
+	<div class="form-group">
+		<label for="log1" class="col-sm-2 control-label">Login</label>
+		<div class="col-sm-2">
+		<input type="text" class="form-control" id="log1" name="loginuser"/>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="passw1" class="col-sm-2 control-label">Password</label>
+		<div class="col-sm-2">
+		<input type="password" class="form-control" id="passw1" name="mdpuser"/>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+		<button type="submit" class="btn btn-default">Envoyer</button>
+		<button type="reset" class="btn btn-default">Annuler</button>
+		</div>
+	</div>
+	</form>
+</body>
+</html>
